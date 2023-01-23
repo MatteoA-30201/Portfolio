@@ -1,14 +1,17 @@
-#logo {
-    width: 10px;
-    height: 10px;
+#logo img {
+    width:100px;
+    height: 100px;
 }
 
 .topnav {
     background-color: #206369;
     overflow: hidden;
-    height: 60px;
+    height: 100px;
     display: flex;
     flex-flow: row nowrap;
+    border: #2A3A45 outset 4px;
+    border-radius: 10px;
+    padding-bottom: 40px;
 }
 
 .topnav a {
@@ -18,4 +21,40 @@
     padding: 20px 24px;
     text-decoration: none;
     font-weight: 20px;
+}
+
+.skeuomorphic-buttons-navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    width: 2000px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skeuomorphic-buttons-navbar a.skeuomorphic-buttons {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.skeuomorphic-buttons {
+    border: 2px outset #2A3A45;
+    border-radius: 10px;
+    outline-offset: 1px;
+    box-shadow: 0 8px;
+    background-color: #6E838A;
+    margin-top: 15px;
+}
+
+.skeuomorphic-buttons:hover {
+    cursor: pointer;
+}
+
+.skeuomorphic-buttons:active {
+    margin-top: 20px;
+    box-shadow: 0 0px;
+    background-color: #2a3a45;
+    color: #6E838A;
+    border: 2px outset #6E838A;
 }

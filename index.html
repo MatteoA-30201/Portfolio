@@ -10,43 +10,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
-    <div class="topnav" id="navbar">
-        <div data-aos="zoom-in-right">
-            <div id="logo">
-                <a href="index.html">
-                    <img src="Photos/MA.png">
-                </a>
-            </div>
-        </div>
-        <div class="skeuomorphic-buttons">
-            <div data-aos="flip-left">
-                <div id="gallery">
-                    <a href="gallery.html"><h2>Gallery</h2></a>
+    <div data-aos="fade-down">
+        <div class="topnav" id="navbar">
+            <div data-aos="zoom-in-right">
+                <div id="logo-container">
+                    <a id="logo" href="index.html">
+                        <img src="Photos/MA.png">
+                    </a>
                 </div>
             </div>
-            <div data-aos="zoom-in">
-                <div id="projects">
-                    <a href="projects.html"><h2>Projects</h2></a>
+            <div class="skeuomorphic-buttons-navbar">
+                <div data-aos="flip-left">
+                    <div id="gallery-container">
+                        <a class="skeuomorphic-buttons" id="gallery"><h2>GALLERY</h2></a>
+                    </div>
                 </div>
-            </div>
-            <div data-aos="flip-right">
-                <div id="contact">
-                    <a href="contact.html"><h2>Contact</h2></a>
+                <div data-aos="zoom-in">
+                    <div id="projects-container">
+                        <a class="skeuomorphic-buttons" id="projects"><h2>PROJECTS</h2></a>
+                    </div>
                 </div>
-            </div>
-            <div data-aos="zoom-in-left">
-                <div id="about">
-                    <a href="about.html"><h2>About</h2></a>
+                <div data-aos="flip-right">
+                    <div id="contact-container">
+                        <a class="skeuomorphic-buttons" id="contact"><h2>CONTACT</h2></a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-left">
+                    <div id="about-container">
+                        <a class="skeuomorphic-buttons" id="about"><h2>ABOUT</h2></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 </html>
