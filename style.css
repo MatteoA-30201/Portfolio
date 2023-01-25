@@ -1,12 +1,16 @@
+body {
+    background-image: url(Photos/home.jpg);
+}
+
 #logo img {
-    width:100px;
-    height: 100px;
+    width:80px;
+    height: 80px;
 }
 
 .topnav {
     background-color: #206369;
     overflow: hidden;
-    height: 100px;
+    height: 60px;
     display: flex;
     flex-flow: row nowrap;
     border: #2A3A45 outset 4px;
@@ -18,7 +22,7 @@
     float: left;
     color: #2A3A45;
     text-align: center;
-    padding: 20px 24px;
+    padding: 10px 10px;
     text-decoration: none;
     font-weight: 20px;
 }
@@ -36,6 +40,7 @@
     margin-right: 50px;
     display: flex;
     text-align: center;
+    font-size: 12px;
 }
 
 .skeuomorphic-buttons {
@@ -44,17 +49,32 @@
     outline-offset: 1px;
     box-shadow: 0 8px;
     background-color: #6E838A;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .skeuomorphic-buttons:hover {
     cursor: pointer;
+    text-decoration: underline #2a3a45;
 }
 
 .skeuomorphic-buttons:active {
-    margin-top: 20px;
+    margin-top: 18px;
     box-shadow: 0 0px;
     background-color: #2a3a45;
     color: #6E838A;
     border: 2px outset #6E838A;
+    text-decoration: underline #6E838A;
+}
+
+.moon-container {
+    margin-top: 290px;
+    margin-left: 88px;
+    margin-right: 2000px;
+}
+
+#moon {
+    width: 350px;
+    height: 350px;
+    border: #BBE4EC groove 2px;
+    border-radius: 40px;
 }
