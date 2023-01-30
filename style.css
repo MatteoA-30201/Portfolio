@@ -1,5 +1,6 @@
 body {
-    background-image: url(Photos/home.jpg);
+    background-image: url(Photos/Home2.jpg);
+    background-size: 100%;
 }
 
 #logo img {
@@ -16,6 +17,7 @@ body {
     border: #2A3A45 outset 4px;
     border-radius: 10px;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 .topnav a {
@@ -31,7 +33,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: right;
-    width: 2000px;
+    width: 100%; 
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -77,4 +79,17 @@ body {
     height: 350px;
     border: #BBE4EC groove 2px;
     border-radius: 40px;
+}
+
+.tron-background-container {
+    margin-top: -510px;
+    margin-left: 963px;
+    margin-right: 600px;
+}
+
+#tron-background {
+    border: #BBE4EC ridge 2px;
+    border-radius: 40px;
+    width: 320px;
+    height: 179.7px;
 }
