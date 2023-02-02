@@ -1,8 +1,26 @@
 body {
-    background-image: url(Photos/Home2.jpg);
     background-size: 100%;
 }
 
+#homepage-body {
+    background-image: url(Photos/Home2.jpg);
+}
+
+#about-me-body {
+    background-image: url(Photos/About-Me-Background.jpg);
+}
+
+#contact-body {
+
+}
+
+#gallery-body {
+    
+}
+
+#projects-body {
+    
+}
 #logo img {
     width:80px;
     height: 80px;
@@ -83,8 +101,7 @@ body {
 
 .tron-background-container {
     margin-top: -510px;
-    margin-left: 963px;
-    margin-right: 600px;
+    margin-left: 960px;
 }
 
 #tron-background {
@@ -96,7 +113,7 @@ body {
 
 .jupiter-container {
     margin-top: -280px;
-    margin-left: 232px;
+    margin-left: 235px;
 }
 
 #jupiter {
@@ -107,8 +124,8 @@ body {
 }
 
 .saturn-container {
-    margin-top: 486px;
-    margin-left: 546px;
+    margin-top: 493px;
+    margin-left: 551px;
 }
 
 #saturn {
@@ -116,4 +133,38 @@ body {
     border-radius: 100%;
     width: 180.8px;
     height: 180.8px;
+}
+
+.keyboard-container {
+    margin-top: -182px;
+    margin-left: 1300px;
+}
+
+#keyboard {
+    border: #BBE4EC groove 2px;
+    border-radius: 40px;
+    width: 230.4px;
+    height: 172.8px;
+}
+
+.quick-about-me-container {
+    margin-top: -490px;
+    margin-left: 961px;
+    border: #BBE4EC inset 2px;
+    border-radius: 40px;
+    background-color: #2A3A45;
+    width: 570px;
+}
+
+#quick-about-me {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #BBE4EC;
+    text-indent: 30px;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
