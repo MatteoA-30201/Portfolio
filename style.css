@@ -4,6 +4,7 @@ body {
 
 #homepage-body {
     background-image: url(Photos/Home2.jpg);
+    height: 1040px;
 }
 
 #about-me-body {
@@ -11,15 +12,18 @@ body {
 }
 
 #contact-body {
-
+    background-image: url(Photos/Contact-Background.jpg);
+    height: 1040px;
 }
 
 #gallery-body {
-    
+    background-image: ;
+    height: 1040px;
 }
 
 #projects-body {
-    
+    background-image: ;
+    height: 1040px;
 }
 #logo img {
     width:80px;
@@ -87,8 +91,8 @@ body {
 }
 
 .moon-container {
-    margin-top: 290px;
-    margin-left: 88px;
+    margin-top: 285px;
+    margin-left: 86px;
     margin-right: 2000px;
 }
 
@@ -101,7 +105,7 @@ body {
 
 .tron-background-container {
     margin-top: -510px;
-    margin-left: 960px;
+    margin-left: 950px;
 }
 
 #tron-background {
@@ -112,8 +116,8 @@ body {
 }
 
 .jupiter-container {
-    margin-top: -280px;
-    margin-left: 235px;
+    margin-top: -274px;
+    margin-left: 232px;
 }
 
 #jupiter {
@@ -124,8 +128,8 @@ body {
 }
 
 .saturn-container {
-    margin-top: 493px;
-    margin-left: 551px;
+    margin-top: 486.5px;
+    margin-left: 546px;
 }
 
 #saturn {
@@ -137,7 +141,7 @@ body {
 
 .keyboard-container {
     margin-top: -182px;
-    margin-left: 1300px;
+    margin-left: 1288px;
 }
 
 #keyboard {
@@ -148,8 +152,8 @@ body {
 }
 
 .quick-about-me-container {
-    margin-top: -490px;
-    margin-left: 961px;
+    margin-top: -480px;
+    margin-left: 950px;
     border: #BBE4EC inset 2px;
     border-radius: 40px;
     background-color: #2A3A45;
